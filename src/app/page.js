@@ -8,20 +8,29 @@ export default function Home() {
   const router = useRouter();
 
   const onclickMarineras = () => {
-    router.push("/marineras")
+    router.push("/marineras");
   };
 
   const onclickMochilas = () => {
-    router.push("/mochilas")
+    router.push("/mochilas");
   };
 
   const onclickManijas = () => {
-    router.push("/manijas")
+    router.push("/manijas");
   };
 
   const onclickFundas = () => {
-    router.push("/fundas")
+    router.push("/fundas");
   };
+
+  const onclickFundasBotellas = () => {
+    router.push("/fundas-botellas");
+  };
+
+  const onClickRegalos = () => {
+    router.push("/regalos");
+  };
+
   return (
     <div>
       <Header />
@@ -29,7 +38,7 @@ export default function Home() {
         <div>
           <Cards
             image="/marineras.jpeg"
-            description="Bolsitas Tipo Marineras"
+            description="Bolsitas tipo Marineras"
             onClick={onclickMarineras}
           ></Cards>
         </div>
@@ -52,6 +61,20 @@ export default function Home() {
             image="/fundas.jpeg"
             description="Fundas para lentes"
             onClick={onclickFundas}
+          ></Cards>
+        </div>
+        <div>
+          <Cards
+            image="/fundas-botellas.jpeg"
+            description="Fundas para botellas"
+            onClick={onclickFundasBotellas}
+          ></Cards>
+        </div>
+        <div>
+          <Cards
+            image="/regalos.jpeg"
+            description="Bolsitas para regalos"
+            onClick={onClickRegalos}
           ></Cards>
         </div>
       </div>
