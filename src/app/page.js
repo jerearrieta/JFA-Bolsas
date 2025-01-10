@@ -36,21 +36,21 @@ export default function Home() {
         <div>
           <Cards
             image="/mochilas.jpeg"
-            description="Bolsitas Tipo Mochilas"
+            description="Mochilas"
             onClick={onclickMochilas}
           ></Cards>
         </div>
         <div>
           <Cards
             image="/manijas.jpeg"
-            description="Bolsitas Con Manijas"
+            description="Totebag"
             onClick={onclickManijas}
           ></Cards>
         </div>
         <div>
           <Cards
             image="/fundas.jpeg"
-            description="Bolsitas Tipo Fundas"
+            description="Fundas para lentes"
             onClick={onclickFundas}
           ></Cards>
         </div>

@@ -20,11 +20,11 @@ const fundas = () => {
     <div>
       <Header />
       <h1 className="font-bold text-5xl text-center mt-10">
-        BOLSITA CON MANIJAS
+        Fundas para lentes
       </h1>
       <CustomTable headers={headers} rows={rows} uniqueKey="name" />
       <p className="font-bold text-3xl text-center mt-10">
-        Podes consultar por medidas personalizadas haciendo click en el boton de abajo!
+        Unicas 2 medidas disponibles!
       </p>
       <div className="mt-10 flex justify-center">
         <a
@@ -33,7 +33,7 @@ const fundas = () => {
           rel="noopener noreferrer"
           style={{
             padding: "10px 20px",
-            backgroundColor: "#25D366", // Color verde de WhatsApp
+            backgroundColor: "#25D366",
             color: "#fff",
             fontSize: "16px",
             borderRadius: "5px",

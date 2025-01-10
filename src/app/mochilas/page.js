@@ -21,7 +21,7 @@ const mochilas = () => {
     <div>
       <Header />
       <h1 className="font-bold text-5xl text-center mt-10">
-        BOLSITA TIPO MOCHILAS
+        MOCHILAS
       </h1>
       <CustomTable headers={headers} rows={rows} uniqueKey="name" />
       <p className="font-bold text-3xl text-center mt-10">Podes consultar por medidas personalizadas haciendo click en el boton de abajo!</p>

@@ -22,7 +22,7 @@ const manijas = () => {
     <div>
       <Header />
       <h1 className="font-bold text-5xl text-center mt-10">
-        BOLSITA CON MANIJAS
+        TOTEBAG
       </h1>
       <CustomTable headers={headers} rows={rows} uniqueKey="name" />
       <p className="font-bold text-3xl text-center mt-10">
